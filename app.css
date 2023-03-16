@@ -1,0 +1,383 @@
+body {
+    background: #ffffff;
+    /* background: #f5f5f5; */
+    font-family: "Nunito", sans-serif;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 5rem;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+    width: 8rem;
+    height: 8rem;
+    margin-left: 2rem;
+  }  
+
+  .fa-youtube:hover {
+    color: maroon;
+  }
+
+  .fa-twitter:hover {
+    color: #216087;
+  }
+
+.jumbotron{
+    width: fit-content;
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    text-shadow: 3px 3px 50px black;
+    font-family: 'Lavishly Yours', cursive;
+font-family: 'Playfair Display', serif;
+}
+
+h3{
+    font-size: 3rem;
+    color:black;
+    font-family: 'Lavishly Yours', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+#home body{
+    background-color: #333232;
+}
+
+#header {
+    background: url(imgs/holyname.jpg);
+    background-size: cover;
+    /* background-position: center; */
+	background-repeat: no-repeat;
+	/* background-size: auto; */
+	background-repeat: no-repeat;
+}
+
+#subscription-form{
+    background-color: ;
+}
+body {
+    background: #f7f6f2;
+    /* background: #f5f5f5; */
+    font-family: "Nunito", sans-serif;
+}
+
+.jumbotron{
+    width: fit-content;
+    width: 100%;
+}
+
+#home body{
+    background-color: #333232;
+}
+
+#header {
+    background: url(imgs/holyname.jpg);
+    background-size: cover;
+    /* background-position: center; */
+	background-repeat: no-repeat;
+	/* background-size: auto; */
+	background-repeat: no-repeat;
+}
+
+#subscription-form{
+    background-color: ;
+}
+
+/* #submit-button{
+    background-color: #333232;
+    color: #CC9912;
+}
+
+#submit-button:hover{
+    background-color: black;
+} */
+
+
+.blurb h2 {
+   color: #292929;
+   font-weight: 100;
+   font-size: 2.5vw;
+}
+
+.blurb p {
+    color: #a68802;
+    font-weight: 250;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#div-space{
+    padding: 2vw;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #CC9912;
+}
+
+.navbar:hover{
+    background-color: #333232;
+}
+
+#mainNavbar .navbar-brand #navbrandimage{
+    width: 5vw;
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #333232;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+/* ============CARD FLIP FOR EVENTS PAGE===================== */
+.flip-card {
+    background-color: transparent;
+    perspective: 1000px;
+    padding: 1rem;
+  }
+  
+  .flip-card img{
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;	
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    /* background-color: #292929; */
+    color: white;
+  }
+  
+  .flip-card-back {
+    /* background-color: black;
+    color: #CC9912; */
+    transform: rotateY(180deg);
+    font-size: 1rem;
+  }
+
+
+.gray-text{
+	color: #707070;
+}
+
+
+.ui.card>.image>img, .ui.cards>.card>.image>img  {
+		width: 100%;
+		height: 12em;
+		object-fit: cover;	
+}
+
+.vertical-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.image img{
+	max-height: 90vh;
+	/* width: auto; */
+}
+.image figcaption{
+	padding-top: 0.5em;
+	display: table-caption;
+	caption-side: bottom;
+	text-align: center;
+}
+
+/*text inside accordion when collapsed*/
+.card-body{
+	margin-left: 16em;
+	margin-right: 16em;
+}
+
+/* =======iframe video Wrapper======== */
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+.blurb h2 {
+   color: #292929;
+   font-weight: 100;
+   font-size: 2.5vw;
+}
+
+#rcorners {
+	border-radius: 25px;
+	/* border: 2px solid black; */
+	/* padding: 20px;  */
+	width: 100%;
+	height: 100%;
+	box-shadow: 5px 5px 15px #aaaaaa;  
+  }
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#div-space{
+    padding: 2vw;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #CC9912;
+}
+
+.navbar:hover{
+    background-color: #333232;
+}
+
+#mainNavbar .navbar-brand #navbrandimage{
+    width: 5vw;
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #333232;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+/* =======iframe video Wrapper======== */
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
+#rcorners {
+	border-radius: 25px;
+	/* border: 2px solid black; */
+	/* padding: 20px;  */
+	width: 100%;
+	height: 100%;
+    box-shadow: 5px 5px 15px #aaaaaa;  
+    background-color: white;
+  }
+/* 
+  .twitter-tweet {
+    width: 100%;
+    padding: 0.5vw;
+} */
